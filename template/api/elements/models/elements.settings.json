@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "elements",
+  "info": {
+    "name": "Elements",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "moka": {
+      "type": "json"
+    },
+    "types": {
+      "type": "json"
+    }
+  }
+}

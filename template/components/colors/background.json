@@ -1,0 +1,61 @@
+{
+  "collectionName": "components_colors_backgrounds",
+  "info": {
+    "name": "background",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "transparent",
+        "white",
+        "black",
+        "gray",
+        "red",
+        "orange",
+        "yellow",
+        "green",
+        "teal",
+        "blue",
+        "indigo",
+        "purple",
+        "pink"
+      ],
+      "default": "black"
+    },
+    "density": {
+      "type": "enumeration",
+      "enum": [
+        "extralight",
+        "verylight",
+        "light",
+        "mediumlight",
+        "normal",
+        "mediumdark",
+        "dark",
+        "verydark",
+        "extradark"
+      ],
+      "default": "normal"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "css": {
+      "type": "string"
+    },
+    "tw_color": {
+      "type": "string"
+    }
+  }
+}

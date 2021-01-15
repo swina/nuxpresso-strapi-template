@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "components",
+  "info": {
+    "name": "Components",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "json": {
+      "type": "json"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "html": {
+      "type": "text"
+    },
+    "image_uri": {
+      "type": "text"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "element",
+        "component",
+        "widget",
+        "template",
+        "layout",
+        "page",
+        "slider",
+        "gallery",
+        "archive",
+        "starred"
+      ]
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "loop": {
+      "type": "boolean",
+      "default": false
+    },
+    "default": {
+      "type": "boolean",
+      "default": false
+    },
+    "favorite": {
+      "type": "boolean",
+      "default": false
+    },
+    "loop_limit": {
+      "type": "integer"
+    },
+    "loop_pagination": {
+      "type": "boolean",
+      "default": true
+    },
+    "loop_type": {
+      "type": "string",
+      "default": "articles"
+    },
+    "tags": {
+      "type": "text"
+    },
+    "blocks_id": {
+      "type": "string"
+    }
+  }
+}

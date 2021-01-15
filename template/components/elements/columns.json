@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_columns",
+  "info": {
+    "name": "Columns",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "css": {
+      "type": "string"
+    }
+  }
+}
