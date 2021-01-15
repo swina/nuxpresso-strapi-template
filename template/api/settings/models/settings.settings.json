@@ -51,22 +51,6 @@
       "type": "integer",
       "min": 2
     },
-    "seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "seo.seo"
-    },
-    "header": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "autoimage": {
       "type": "boolean",
       "default": true
@@ -82,21 +66,6 @@
     "authentication": {
       "type": "boolean",
       "default": false
-    },
-    "articles_loop_mode": {
-      "type": "enumeration",
-      "enum": [
-        "classic",
-        "modern",
-        "news",
-        "boxed"
-      ],
-      "default": "modern"
-    },
-    "darkmode_settings": {
-      "type": "component",
-      "repeatable": false,
-      "component": "themes.dark-mode"
     },
     "read_more": {
       "type": "string",

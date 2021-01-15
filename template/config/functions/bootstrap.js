@@ -36,7 +36,7 @@ module.exports = async () => {
     if (process.env.NODE_ENV === 'development') {
       const params = {
         username: process.env.DEV_USER || 'admin',
-        password: process.env.DEV_PASS || 'admin',
+        password: process.env.DEV_PASS || 'password',
         firstname: process.env.DEV_USER || 'Admin',
         lastname: process.env.DEV_USER || 'Admin',
         email: process.env.DEV_EMAIL || 'admin@test.test',
