@@ -9,7 +9,7 @@
  *
  * See more details here: https://strapi.io/documentation/v3.x/concepts/configurations.html#bootstrap
  */
-const elements = require ( '../../scripts/elements' );
+//const elements = require ( '../../scripts/elements' );
 
 const findPublicRole = async () => {
     const result = await strapi
