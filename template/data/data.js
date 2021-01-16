@@ -13233,7 +13233,7 @@ module.exports = {
           "__typename": "Components"
         }
       ],
-    elements: [
+    elements: 
         { 
             moka: {
             "form": [
@@ -13844,6 +13844,33 @@ module.exports = {
               }
             ]
           }
-        }
-    ]
+        },
+    settings: 
+      {
+        "id":1,
+        "site_name":"nuxpresso",
+        "site_title":"Just a nuxpresso site",
+        "show_title":false,
+        "footer":"nuxpresso - Created with NuxtJS / Strapi / Tailwindcss  / GraphQL",
+        "email":null,
+        "github":null,
+        "twitter":null,
+        "articles_limit":4,
+        "autoimage":true,
+        "breadcrumb":true,
+        "darkmode":false,
+        "authentication":false,
+        "read_more":"READ MORE",
+        "scrolltop":true
+        //remember to add this values           
+        //"body_bg":null,
+        //"body_color":null,
+        //"google_analytics":null,
+        //"darkmode_bg":null,
+        //"darkmode_color":null,
+        //seo_title: "seo title",
+        //seo_description: "seo description",
+        //"logo_img":null,"header":[],
+        //"body_image":null
+      }
 }

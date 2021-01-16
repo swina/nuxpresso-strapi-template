@@ -35,11 +35,12 @@ const findPublicRole = async () => {
 
 const {
   components,
-  elements
+  elements,
+  settings
 } = require("../../data/data");
 
 const createSeedData = async () => {
-  
+  console.log ( 'Import data ...')
   const componentsPromises = components.map(({
     ...rest
   }) => {
@@ -48,15 +49,12 @@ const createSeedData = async () => {
     });
   });
 
-  const elementsPromises = elements.map(({
-    ...rest
-  }) => {
-    return strapi.services.elements.create({
-      ...rest
-    });
-  });
   await Promise.all(componentsPromises);
-  await Promise.all(elementsPromises);
+  console.log ( 'Blocks imported.')
+  const elementsPromises = await strapi.query('elements').create( elements );
+  console.log ( 'Elements imported.')
+  const settingsPromises = await strapi.query('settings').create( settings );
+  console.log ( 'Settings imported')
 }
 
 module.exports = async () => {
@@ -99,21 +97,10 @@ module.exports = async () => {
       await setDefaultPermissions('application');
       await setDefaultPermissions('upload');
       await setDefaultPermissions('email');
-      await createSeedData();
-      /*
-      const qryElements = await strapi.query('elements').find();
-      if ( !qryElements.length ){
-        try {
-            let data = {
-                moka: elements
-            }
-            const updateElements = await strapi.query('elements').create ( data )
-            console.log.info ('Created Elements' )
-        } 
-        catch ( error ){
-            strapi.log.error ( 'Couldn\'t create Elements' , error )
-        }
-      }*/
+      const qryComponents = await strapi.query('components').find()
+      if ( qryComponents.length === 0 ){
+        await createSeedData();
+      }
     }
   };
   
