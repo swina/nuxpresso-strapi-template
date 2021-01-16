@@ -46,10 +46,16 @@
     "twitter": {
       "type": "string"
     },
-    "articles_limit": {
-      "default": 4,
-      "type": "integer",
-      "min": 2
+    "header": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     },
     "autoimage": {
       "type": "boolean",
@@ -74,6 +80,38 @@
     "scrolltop": {
       "type": "boolean",
       "default": true
+    },
+    "body_bg": {
+      "type": "string"
+    },
+    "body_color": {
+      "type": "string"
+    },
+    "body_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "google_analytics": {
+      "type": "string"
+    },
+    "darkmode_bg": {
+      "type": "string"
+    },
+    "darkmode_color": {
+      "type": "string"
+    },
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "text"
     }
   }
 }

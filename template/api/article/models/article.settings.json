@@ -81,12 +81,6 @@
       "plugin": "users-permissions",
       "model": "user"
     },
-    "SEO": {
-      "type": "component",
-      "repeatable": false,
-      "component": "seo.seo",
-      "required": true
-    },
     "lang": {
       "type": "string",
       "default": "en",
@@ -94,6 +88,14 @@
     },
     "template_id": {
       "type": "string"
+    },
+    "seo_title": {
+      "type": "string",
+      "default": "nuxpresso page"
+    },
+    "seo_description": {
+      "type": "text",
+      "default": "a nuxpresso page"
     }
   }
 }

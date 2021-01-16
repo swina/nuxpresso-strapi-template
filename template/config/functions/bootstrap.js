@@ -36,7 +36,8 @@ const findPublicRole = async () => {
 const {
   components,
   elements,
-  settings
+  settings,
+  articles
 } = require("../../data/data");
 
 const createSeedData = async () => {
@@ -49,8 +50,22 @@ const createSeedData = async () => {
     });
   });
 
+  const articlesPromises = articles.map(({
+    ...rest
+  }) => {
+    return strapi.services.articles.create({
+      ...rest
+    });
+  });
+
   await Promise.all(componentsPromises);
+  
   console.log ( 'Blocks imported.')
+  
+  await Promise.all(articlesPromises);
+
+  console.log ( 'Articles imported')
+
   const elementsPromises = await strapi.query('elements').create( elements );
   console.log ( 'Elements imported.')
   const settingsPromises = await strapi.query('settings').create( settings );

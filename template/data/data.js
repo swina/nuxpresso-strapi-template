@@ -13231,6 +13231,336 @@ module.exports = {
             ]
           },
           "__typename": "Components"
+        },
+        {
+          "id": 212,
+          "name": "Default Template",
+          "description": "Installation default template",
+          "json": {
+            "id": "moka-kkl33",
+            "css": "",
+            "tag": "document",
+            "image": null,
+            "blocks": [
+              {
+                "id": "moka-7by5c",
+                "css": {
+                  "css": "",
+                  "container": "flex flex-col md:grid md:grid-cols-1"
+                },
+                "tag": "container",
+                "cols": 1,
+                "icon": "view_column",
+                "link": "",
+                "rows": [],
+                "type": "grid",
+                "image": null,
+                "label": "Columns",
+                "style": "",
+                "blocks": [
+                  {
+                    "id": "moka-avzv8",
+                    "css": {
+                      "css": "flex-col",
+                      "container": "flex"
+                    },
+                    "tag": "blocks",
+                    "gsap": {
+                      "ease": null,
+                      "delay": null,
+                      "duration": null,
+                      "animation": null
+                    },
+                    "icon": "select_all",
+                    "link": "",
+                    "type": "flex",
+                    "image": null,
+                    "style": "",
+                    "blocks": [
+                      {
+                        "id": "moka-gj71t",
+                        "css": {
+                          "css": " p-10 bg- h-auto items-center justify-items-center",
+                          "container": "flex flex-col md:grid md:grid-cols-1"
+                        },
+                        "tag": "container",
+                        "gsap": {
+                          "ease": "",
+                          "delay": 0,
+                          "duration": 0,
+                          "animation": ""
+                        },
+                        "icon": "view_column",
+                        "link": "",
+                        "rows": [],
+                        "type": "grid",
+                        "image": null,
+                        "label": "Columns",
+                        "style": "",
+                        "blocks": [
+                          {
+                            "id": "moka-hwi7k",
+                            "css": {
+                              "css": " flex-row items-center w-full justify-center justify-items-center",
+                              "container": "flex"
+                            },
+                            "tag": "blocks",
+                            "icon": "select_all",
+                            "type": "flex",
+                            "image": null,
+                            "style": "",
+                            "blocks": [
+                              {
+                                "id": "moka-rwuj9",
+                                "css": " w-10 h-10",
+                                "src": "",
+                                "tag": "svg",
+                                "gsap": {
+                                  "ease": "",
+                                  "delay": 0,
+                                  "duration": 0,
+                                  "animation": ""
+                                },
+                                "icon": "gesture",
+                                "link": "#",
+                                "type": "svg",
+                                "image": null,
+                                "label": "SVG",
+                                "style": "",
+                                "content": {
+                                  "g": "<g transform=\"translate(0,-161.53332)\"> <rect style=\"fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.16160659;stroke-miterlimit:4;stroke-dasharray:1.29285277, 1.29285277000000010;stroke-dashoffset:0;stroke-opacity:1\" id=\"rect4518-4-4\" width=\"66.15889\" height=\"65.536835\" x=\"397.90588\" y=\"322.19547\" inkscape:transform-center-x=\"10.194334\" inkscape:transform-center-y=\"-1.6223747\" transform=\"matrix(0.93817342,0.34616562,-0.95166813,0.30712826,0,0)\" /><rect style=\"fill:#afe9dd;fill-opacity:1;fill-rule:evenodd;stroke-width:0.16189831\" id=\"rect4518-4\" width=\"66.15889\" height=\"65.536835\" x=\"377.75974\" y=\"301.70334\" inkscape:transform-center-x=\"10.194334\" inkscape:transform-center-y=\"-1.6223747\" transform=\"matrix(0.93817342,0.34616563,-0.95166813,0.30712825,0,0)\" /><rect style=\"fill:#37c8ab;fill-opacity:1;fill-rule:evenodd;stroke-width:0.16251691\" id=\"rect4518-4-6\" width=\"66.441734\" height=\"65.757492\" x=\"341.99258\" y=\"265.89914\" inkscape:transform-center-x=\"10.194331\" inkscape:transform-center-y=\"-1.6793891\" transform=\"matrix(0.93417962,0.35680308,-0.94847476,0.31685269,0,0)\" /><rect style=\"fill:#217867;fill-opacity:1;fill-rule:evenodd;stroke-width:0.16189831\" id=\"rect4518-4-0\" width=\"66.15889\" height=\"65.536835\" x=\"326.85443\" y=\"251.83545\" inkscape:transform-center-x=\"10.194334\" inkscape:transform-center-y=\"-1.6223747\" transform=\"matrix(0.93817342,0.34616562,-0.95166813,0.30712826,0,0)\" /></g>",
+                                  "viewBox": "0 0 135.46667 135.46668"
+                                },
+                                "element": "svg"
+                              },
+                              {
+                                "id": "moka-468nx",
+                                "css": " text-gray-500 text-4xl font-bold ml-5",
+                                "tag": "element",
+                                "icon": "subject",
+                                "link": "",
+                                "type": "element",
+                                "label": "Rich Text",
+                                "style": "",
+                                "content": "<p><strong>N U X P R E S S O</strong></p>",
+                                "element": "p"
+                              }
+                            ]
+                          }
+                        ],
+                        "content": "",
+                        "element": "grid"
+                      },
+                      {
+                        "id": "moka-3hyn3",
+                        "css": {
+                          "css": " mt-8 mb-8 ml-8 mr-8",
+                          "container": "flex flex-col md:grid md:grid-cols-1"
+                        },
+                        "tag": "container",
+                        "gsap": {
+                          "ease": "",
+                          "delay": 0,
+                          "duration": 0,
+                          "animation": ""
+                        },
+                        "icon": "view_column",
+                        "link": "",
+                        "rows": [],
+                        "type": "grid",
+                        "image": null,
+                        "label": "Columns",
+                        "style": "",
+                        "blocks": [
+                          {
+                            "id": "moka-m0dwf",
+                            "css": {
+                              "css": "flex-col p-20",
+                              "container": "flex"
+                            },
+                            "tag": "blocks",
+                            "icon": "select_all",
+                            "type": "flex",
+                            "image": null,
+                            "style": "",
+                            "blocks": [
+                              {
+                                "id": "moka-x2bqc",
+                                "css": " text-teal-800 font-bold text-center",
+                                "tag": "article",
+                                "gsap": {
+                                  "ease": "",
+                                  "delay": 0,
+                                  "duration": 0,
+                                  "animation": ""
+                                },
+                                "icon": "article",
+                                "type": "element",
+                                "label": "title",
+                                "level": "1",
+                                "style": "",
+                                "content": "Article [title]",
+                                "element": "h",
+                                "required": false
+                              },
+                              {
+                                "id": "moka-egx4m",
+                                "css": "",
+                                "tag": "article",
+                                "gsap": {
+                                  "ease": "",
+                                  "delay": 0,
+                                  "duration": 0,
+                                  "animation": ""
+                                },
+                                "icon": "article",
+                                "type": "element",
+                                "label": "content",
+                                "style": "",
+                                "content": "Article [content]",
+                                "element": "p",
+                                "required": false
+                              }
+                            ]
+                          }
+                        ],
+                        "content": "",
+                        "element": "grid",
+                        "semantic": ""
+                      },
+                      {
+                        "id": "moka-ahy76",
+                        "css": {
+                          "css": " p-8 text-gray-700 items-center content-center justify-center justify-items-center bg-gray-200 bg-contain bg-center bg-no-repeat bg-opacity-100",
+                          "container": "flex flex-col md:grid md:grid-cols-1"
+                        },
+                        "tag": "container",
+                        "gsap": {
+                          "ease": "",
+                          "delay": 0,
+                          "duration": 0,
+                          "animation": ""
+                        },
+                        "icon": "view_column",
+                        "link": "",
+                        "rows": [],
+                        "type": "grid",
+                        "image": null,
+                        "label": "Columns",
+                        "style": "",
+                        "blocks": [
+                          {
+                            "id": "moka-yv3wd",
+                            "css": {
+                              "css": " flex-col w-full",
+                              "container": "flex"
+                            },
+                            "tag": "blocks",
+                            "icon": "select_all",
+                            "type": "flex",
+                            "image": null,
+                            "style": "",
+                            "blocks": [
+                              {
+                                "id": "moka-jiqdw",
+                                "css": " text-gray-800 text-center font-bold text-3xl pb-3 pt-3",
+                                "tag": "element",
+                                "gsap": {
+                                  "ease": "",
+                                  "delay": 0,
+                                  "duration": 0,
+                                  "animation": ""
+                                },
+                                "icon": "subject",
+                                "link": "",
+                                "type": "element",
+                                "label": "Rich Text",
+                                "style": "",
+                                "content": "<p><strong>NUXPRESSO</strong></p>",
+                                "element": "p"
+                              },
+                              {
+                                "id": "moka-z1oiq",
+                                "css": " text-sm text-center leading-normal",
+                                "tag": "element",
+                                "gsap": {
+                                  "ease": "",
+                                  "delay": 0,
+                                  "duration": 0,
+                                  "animation": ""
+                                },
+                                "icon": "subject",
+                                "link": "",
+                                "type": "element",
+                                "label": "Rich Text",
+                                "style": "",
+                                "content": "<p>Created by A. Nardone with NuxtJS / VueJS / Strapi CMS / TailwindCSS - MIT License</p><p><br></p>",
+                                "element": "p"
+                              }
+                            ]
+                          }
+                        ],
+                        "content": "",
+                        "element": "grid"
+                      }
+                    ],
+                    "content": "",
+                    "element": "div"
+                  }
+                ],
+                "content": "",
+                "element": "grid"
+              }
+            ]
+          },
+          "html": null,
+          "image_uri": null,
+          "category": "template",
+          "enabled": true,
+          "loop": false,
+          "loop_type": "articles",
+          "default": true,
+          "favorite": null,
+          "loop_limit": null,
+          "loop_pagination": null,
+          "tags": null,
+          "blocks_id": "moka-kkl33",
+          "image": {
+            "id": 260,
+            "name": "moka-preview-Default Template.jpg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 544,
+            "height": 249,
+            "formats": {
+              "thumbnail": {
+                "ext": ".jpg",
+                "url": "https://res.cloudinary.com/moodgiver/image/upload/v1610810520/thumbnail_moka_preview_Default_Template_2acf245f01.png",
+                "hash": "thumbnail_moka_preview_Default_Template_2acf245f01",
+                "mime": "image/jpg",
+                "name": "thumbnail_moka-preview-Default Template.jpg",
+                "path": null,
+                "size": 3.07,
+                "width": 245,
+                "height": 112,
+                "provider_metadata": {
+                  "public_id": "thumbnail_moka_preview_Default_Template_2acf245f01",
+                  "resource_type": "image"
+                }
+              }
+            },
+            "hash": "moka_preview_Default_Template_2acf245f01",
+            "ext": ".jpg",
+            "mime": "image/jpg",
+            "size": 6.25,
+            "url": "https://res.cloudinary.com/moodgiver/image/upload/v1610810519/moka_preview_Default_Template_2acf245f01.png",
+            "previewUrl": null,
+            "provider": "cloudinary",
+            "provider_metadata": {
+              "public_id": "moka_preview_Default_Template_2acf245f01",
+              "resource_type": "image"
+            }
+          }
         }
       ],
     elements: 
@@ -13872,5 +14202,32 @@ module.exports = {
         //seo_description: "seo description",
         //"logo_img":null,"header":[],
         //"body_image":null
+      },
+    articles: [
+      {
+        "id":35,
+        "title":"Welcome to Nuxpresso",
+        "excerpt":null,
+        "content":"<img src=\"https://res.cloudinary.com/moodgiver/image/upload/v1609196023/layers_big_cc995d26d2.png\"></p><p><br></p><p>This is a default article created during installation. Feel free to change it.</p><p><br></p><p>Thank you for using Nuxpresso.</p><p><br></p><p><br></p>",
+        "slug":"welcome-to-nuxpresso",
+        "homepage":true,
+        "menu":false,
+        "random_image":false,
+        "list_exclude":true,
+        "parent":null,
+        "tags":null,
+        "component":212,
+        "user":null,
+        "lang":"en",
+        "image_title":null,
+        "template":null,
+        "template_id":"moka-kkl33",
+        "google_analytics":null,
+        "seo_title":"Welcome to Nuxpresso",
+        "seo_description":"A page created with nuxpresso",
+        "image":null,
+        "gallery":[],
+        "categories":null
       }
+    ]
 }
