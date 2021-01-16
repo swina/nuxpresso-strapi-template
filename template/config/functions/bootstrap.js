@@ -53,7 +53,7 @@ const createSeedData = async () => {
   const articlesPromises = articles.map(({
     ...rest
   }) => {
-    return strapi.services.articles.create({
+    return strapi.services.article.create({
       ...rest
     });
   });
@@ -61,7 +61,7 @@ const createSeedData = async () => {
   await Promise.all(componentsPromises);
   
   console.log ( 'Blocks imported.')
-  
+
   await Promise.all(articlesPromises);
 
   console.log ( 'Articles imported')
