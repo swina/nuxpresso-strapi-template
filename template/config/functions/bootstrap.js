@@ -32,6 +32,33 @@ const findPublicRole = async () => {
     );
   };
 
+
+const {
+  components,
+  elements
+} = require("../../data/data");
+
+const createSeedData = async () => {
+  
+  const componentsPromises = components.map(({
+    ...rest
+  }) => {
+    return strapi.services.components.create({
+      ...rest
+    });
+  });
+
+  const elementsPromises = elements.map(({
+    ...rest
+  }) => {
+    return strapi.services.elements.create({
+      ...rest
+    });
+  });
+  await Promise.all(componentsPromises);
+  await Promise.all(elementsPromises);
+}
+
 module.exports = async () => {
     if (process.env.NODE_ENV === 'development') {
       const params = {
@@ -72,6 +99,8 @@ module.exports = async () => {
       await setDefaultPermissions('application');
       await setDefaultPermissions('upload');
       await setDefaultPermissions('email');
+      await createSeedData();
+      /*
       const qryElements = await strapi.query('elements').find();
       if ( !qryElements.length ){
         try {
@@ -84,7 +113,7 @@ module.exports = async () => {
         catch ( error ){
             strapi.log.error ( 'Couldn\'t create Elements' , error )
         }
-      }
+      }*/
     }
   };
   
