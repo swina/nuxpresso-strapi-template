@@ -34,13 +34,12 @@ const findPublicRole = async () => {
 
 
 const {
-  elements,
   settings,
   articles
 } = require("../../data/data");
 
-const { blocks } = require ( '../../data/blocks')
-
+const { blocks } = require ( '../../data/blocks' )
+const { elements } = require ( '../../data/elements' )
 const createSeedData = async () => {
   console.log ( 'Import data ...')
   const componentsPromises = blocks.map(({
