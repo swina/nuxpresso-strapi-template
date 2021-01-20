@@ -620,6 +620,29 @@ module.exports = {
                 "element": "grid"
             }
             ]
-        }
+        },
+        types: {
+            "fonts": [
+              "PT+Sans:700",
+              "Abel",
+              "Alice",
+              "Lora:400italic",
+              "Raleway:800",
+              "Raleway:100"
+            ],
+            "types": [
+              "brand",
+              "call to action",
+              "content",
+              "feature",
+              "footer",
+              "form",
+              "header",
+              "homepage",
+              "pricing",
+              "team",
+              "testimonial"
+            ]
+          }
     }
 }
