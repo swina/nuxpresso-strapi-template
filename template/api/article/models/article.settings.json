@@ -96,6 +96,9 @@
     "seo_description": {
       "type": "text",
       "default": "a nuxpresso page"
+    },
+    "blocks": {
+      "type": "json"
     }
   }
 }
