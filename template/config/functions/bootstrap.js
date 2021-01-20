@@ -34,15 +34,16 @@ const findPublicRole = async () => {
 
 
 const {
-  components,
   elements,
   settings,
   articles
 } = require("../../data/data");
 
+const { blocks } = require ( '../../data/blocks')
+
 const createSeedData = async () => {
   console.log ( 'Import data ...')
-  const componentsPromises = components.map(({
+  const componentsPromises = blocks.map(({
     ...rest
   }) => {
     return strapi.services.components.create({
@@ -79,7 +80,7 @@ module.exports = async () => {
         password: process.env.DEV_PASS || 'password',
         firstname: process.env.DEV_USER || 'Admin',
         lastname: process.env.DEV_USER || 'Admin',
-        email: process.env.DEV_EMAIL || 'admin@test.test',
+        email: process.env.DEV_EMAIL || 'admin@strapi.local',
         blocked: false,
         isActive: true,
       };
@@ -109,9 +110,12 @@ module.exports = async () => {
           strapi.log.error(`Couldn't create Admin account during bootstrap: `, error);
         }
       }
+      //Set permission for Authenticated
       await setDefaultPermissions('application');
       await setDefaultPermissions('upload');
       await setDefaultPermissions('email');
+
+      //add initial data
       const qryComponents = await strapi.query('components').find()
       if ( qryComponents.length === 0 ){
         await createSeedData();
