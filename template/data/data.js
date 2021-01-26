@@ -15,7 +15,7 @@ module.exports = {
         "darkmode":false,
         "authentication":false,
         "read_more":"READ MORE",
-        "scrolltop":true
+        "scrolltop":true,
         "body_bg":null,
         "body_color":null,
         "google_analytics":null,
