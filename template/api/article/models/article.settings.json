@@ -99,6 +99,9 @@
     },
     "blocks": {
       "type": "json"
+    },
+    "featured_img": {
+      "type": "json"
     }
   }
 }
