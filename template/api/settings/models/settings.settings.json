@@ -112,6 +112,12 @@
     },
     "seo_description": {
       "type": "text"
+    },
+    "responsive_menu_css" : {
+      "type" : "text"
+    },
+    "responsive_menu_transition" : {
+      "type" : "string"
     }
   }
 }

@@ -83,6 +83,9 @@
     },
     "blocks_id": {
       "type": "string"
+    },
+    "autosave": {
+      "type": "json"
     }
   }
 }
