@@ -49,7 +49,9 @@
         "slider",
         "gallery",
         "archive",
-        "starred"
+        "starred",
+        "favorite",
+        "menu"
       ]
     },
     "enabled": {
