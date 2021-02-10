@@ -621,7 +621,7 @@ module.exports = {
                 "element": "grid"
               }
             ]
-          ,
+        },
         types: {
             "fonts": [
               "PT+Sans:700",
