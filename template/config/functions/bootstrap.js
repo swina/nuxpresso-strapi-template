@@ -14,7 +14,7 @@
 const findPublicRole = async () => {
     const result = await strapi
       .query("role", "users-permissions")
-      .findOne({ type: "authenticated" });
+      .findOne({ type: "public" });
     return result;
   };
   

@@ -88,6 +88,10 @@
     },
     "autosave": {
       "type": "json"
+    },
+    "premium": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
