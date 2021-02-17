@@ -619,6 +619,66 @@ module.exports = {
                 "link": "",
                 "image": null,
                 "element": "grid"
+              },
+              {
+                "css": {
+                  "css": "",
+                  "container": "flex flex-col"
+                },
+                "loop": false,
+                "blocks": [
+                  {
+                    "css": {
+                      "css": "",
+                      "container": "flex"
+                    },
+                    "loop": false,
+                    "blocks": [],
+                    "semantic": "",
+                    "style": "",
+                    "label": "Flexbox",
+                    "content": "",
+                    "icon": "highlight_alt",
+                    "rows": [],
+                    "type": "flex",
+                    "tag": "container",
+                    "link": "",
+                    "image": null,
+                    "element": "div"
+                  },
+                  {
+                    "css": {
+                      "css": "",
+                      "container": "flex"
+                    },
+                    "loop": false,
+                    "blocks": [],
+                    "semantic": "",
+                    "style": "",
+                    "label": "Flexbox",
+                    "content": "",
+                    "icon": "highlight_alt",
+                    "rows": [],
+                    "type": "flex",
+                    "tag": "container",
+                    "link": "",
+                    "image": null,
+                    "element": "div"
+                  }
+                ],
+                "semantic": "",
+                "blocks_flip": [],
+                "image_flip": null,
+                "style": "",
+                "label": "Flipcard",
+                "content": "",
+                "icon": "flip_camera_android",
+                "rows": [],
+                "type": "flex",
+                "tag": "container",
+                "link": "",
+                "image": null,
+                "element": "div"
               }
             ]
         },
